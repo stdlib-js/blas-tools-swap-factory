@@ -48,6 +48,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import factory from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-tools-swap-factory@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/blas-tools-swap-factory/tags). For example,
+
+```javascript
 import factory from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-tools-swap-factory@v0.1.0-deno/mod.js';
 ```
 
@@ -154,7 +159,7 @@ import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-
 import ndarray2array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-to-array@deno/mod.js';
 import array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-array@deno/mod.js';
 var dswap = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-dswap' ).ndarray;
-import factory from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-tools-swap-factory@v0.1.0-deno/mod.js';
+import factory from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-tools-swap-factory@deno/mod.js';
 
 var swap = factory( dswap, 'float64' );
 
