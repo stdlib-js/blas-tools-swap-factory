@@ -48,7 +48,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import factory from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-tools-swap-factory@esm/index.mjs';
+import factory from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-tools-swap-factory@v0.1.0-esm/index.mjs';
 ```
 
 #### factory( base, dtype )
@@ -159,7 +159,7 @@ import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-
 import ndarray2array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-to-array@esm/index.mjs';
 import array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-array@esm/index.mjs';
 var dswap = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-dswap' ).ndarray;
-import factory from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-tools-swap-factory@esm/index.mjs';
+import factory from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-tools-swap-factory@v0.1.0-esm/index.mjs';
 
 var swap = factory( dswap, 'float64' );
 
