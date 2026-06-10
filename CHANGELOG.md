@@ -4,7 +4,17 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-05-21)
+## Unreleased (2026-06-10)
+
+<section class="bug-fixes">
+
+### Bug Fixes
+
+-   [`f1e2034`](https://github.com/stdlib-js/stdlib/commit/f1e20349616f31f14b87e403e690d9ba13550e68) - type `dtype` parameter as `DataType` [(#12534)](https://github.com/stdlib-js/stdlib/pull/12534)
+
+</section>
+
+<!-- /.bug-fixes -->
 
 <section class="commits">
 
@@ -12,6 +22,7 @@
 
 <details>
 
+-   [`f1e2034`](https://github.com/stdlib-js/stdlib/commit/f1e20349616f31f14b87e403e690d9ba13550e68) - **fix:** type `dtype` parameter as `DataType` [(#12534)](https://github.com/stdlib-js/stdlib/pull/12534) _(by Philipp Burckhardt)_
 -   [`0b42f76`](https://github.com/stdlib-js/stdlib/commit/0b42f762488cbfac85195af43eec9454d714bf91) - **bench:** refactor to use string interpolation in blas/tools/swap-factory [(#10832)](https://github.com/stdlib-js/stdlib/pull/10832) _(by Kamal Singh Rautela)_
 
 </details>
@@ -24,9 +35,10 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
 -   Kamal Singh Rautela
+-   Philipp Burckhardt
 
 </section>
 
