@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-08-19)
+## Unreleased (2026-08-22)
 
 <section class="bug-fixes">
 
@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`fdbc822`](https://github.com/stdlib-js/stdlib/commit/fdbc82241f30438af95d53f451c1c4cd4523859f) - **chore:** remove unnecessary `format` calls [(#14520)](https://github.com/stdlib-js/stdlib/pull/14520) _(by Philipp Burckhardt)_
 -   [`f1e2034`](https://github.com/stdlib-js/stdlib/commit/f1e20349616f31f14b87e403e690d9ba13550e68) - **fix:** type `dtype` parameter as `DataType` [(#12534)](https://github.com/stdlib-js/stdlib/pull/12534) _(by Philipp Burckhardt)_
 -   [`0b42f76`](https://github.com/stdlib-js/stdlib/commit/0b42f762488cbfac85195af43eec9454d714bf91) - **bench:** refactor to use string interpolation in blas/tools/swap-factory [(#10832)](https://github.com/stdlib-js/stdlib/pull/10832) _(by Kamal Singh Rautela)_
 
